@@ -7,7 +7,7 @@
     "build": "tsc -b"
   },
   "dependencies": {
-    "@types/pg": "^8.10.2",
-    "pg": "^8.11.3"
+    "@types/pg": "^8.11.10",
+    "pg": "^8.13.0"
   }
 }
