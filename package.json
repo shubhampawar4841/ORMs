@@ -7,7 +7,14 @@
     "build": "tsc -b"
   },
   "dependencies": {
+    "@prisma/client": "^6.0.1",
     "@types/pg": "^8.11.10",
     "pg": "^8.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "prisma": "^6.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
   }
 }
