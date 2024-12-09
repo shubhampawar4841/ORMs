@@ -15,14 +15,7 @@ async function main() {
         posts:true
     }
   })
-  const meow=await prisma.user.findUnique({
-    where:{
-        id:2
-    },
-    include:{
-        posts:true
-    }
-  })
+
 }
 
 main()
